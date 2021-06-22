@@ -1,0 +1,86 @@
+
+/* Recommendations */
+#Recommendations {
+    padding: 100px 0 140px 0;
+    display: grid;
+    grid-template-columns: 15% auto auto 15%;
+    background: var(--gradient-orange);
+}
+
+
+/* Recommendations: container */
+#Recommendations__container {
+    grid-column: 2 / 4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* Recommendations: title */
+#Recommendations__title {
+    grid-column: 1 / 5;
+    margin: 0 0 34px 0;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+/* Recommendations: item */
+.Recommendations__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Recommendations: item image */
+.Recommendations__item-image {
+    max-width: 100%;
+    display: block;
+}
+
+/* Recommendations: item title */
+.Recommendations__item-title {
+    margin: 24px 0 0 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Recommendations: item title */
+.Recommendations__item-price {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Recommendations: item button */
+.Recommendations__item-button {
+    width: 125px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    text-indent: 30px;
+    border: none;
+    border-radius: 5%;
+    background-color: var(--light-orange);
+    background-image: url(/grundforloebseksamen_william-deckmann/assets/img/burger_ikon.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    background-position-x: 20px;
+}
+
+/* Recommendations: item offer */
+.Recommendations__item-offer {
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+    color: var(--white);
+    background-color: var(--dark-orange);
+    border-radius: 30px;
+}

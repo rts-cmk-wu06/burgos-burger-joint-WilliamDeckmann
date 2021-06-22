@@ -1,0 +1,57 @@
+
+/* Header */
+#Header {
+    background-image: url(/grundforloebseksamen_william-deckmann/assets/img/hero01.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr 15%;
+}
+
+/* Header: header */
+#Header__header {
+    width: 100%;
+    padding-top: 50px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Header: aside */
+#Header__aside {
+    width: 500px;
+    height: 960px;
+    grid-column: 2 / 4;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: var(--gradient-orange-transparent);
+}
+
+/* Header: aside title */
+#Header__aside-title {
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 150px;
+    color: var(--white);
+}
+
+/* Header: aside button */
+#Header__aside-button {
+    width: 280px;
+    padding: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--light-orange);
+}
+
+/* Header: aside link */
+#Header__aside-link {
+    font-size: 34px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);
+}

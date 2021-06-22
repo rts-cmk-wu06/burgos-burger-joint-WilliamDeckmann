@@ -1,0 +1,67 @@
+
+/* Footer */
+#Footer {
+    display: grid;
+    grid-template-columns: auto 450px;
+    background: var(--gradient-blue);
+}
+
+
+/* Footer: image */
+#Footer__image-container {
+    width: 650px;
+    position: relative;
+}
+/* Footer: image */
+#Footer__image {
+    max-width: 100%;
+    position: absolute;
+    bottom: 100px;
+}
+/* Footer: instagram */
+#Footer__social-media {
+    padding: 130px 0 80px 0;
+}
+
+/* Footer: instagram */
+#Footer__social-media-title {
+    margin: 0 0 24px 0;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: var(--white);
+    justify-self: flex-end;
+}
+
+/* Footer: instagram */
+#Footer__instagram {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Footer: instagram */
+#Footer__instagram-logo {
+    width: 48px;
+    height: 48px;
+    background: var(--gradient-orange);
+    border-radius: 100%;
+}
+
+/* Footer: instagram */
+#Footer__instagram-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* Footer: footer */
+#Footer__footer {
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+/* Footer: copyright */
+#Footer__copyright {
+    margin: 0 0 52px 0;
+    color: var(--white);
+}

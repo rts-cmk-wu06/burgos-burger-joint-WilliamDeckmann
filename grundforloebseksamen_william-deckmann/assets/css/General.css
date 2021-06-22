@@ -1,0 +1,25 @@
+
+/* Body */
+#Body {
+    margin: 0;
+}
+
+/* Main */
+#Main {
+    margin: 140px 0 250px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+}
+
+/* General text */
+.General-text {
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--dark-blue);
+}
+
+/* Gallery text */
+.Gallery-text {
+    font-family: Helvetica, sans-serif;
+    color: var(--dark-blue);
+}

@@ -1,0 +1,15 @@
+
+/* Variables */
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #707070;
+    --light-orange: #FBB731;
+    --dark-orange: #F37335;
+    --gradient-orange: linear-gradient(#FBB731, #F37335);
+    --gradient-orange-transparent: linear-gradient(rgb(251, 183, 49, .8), rgb(243, 115, 53, .8));
+    --blue: #0C4C7B;
+    --dark-blue: #365368;
+    --dark-blue: #1B2A49;
+    --gradient-blue: linear-gradient(#365368, #1E2F40);
+}

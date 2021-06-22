@@ -1,0 +1,45 @@
+
+/* Advertisement */
+#Advertisement {
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr 15%;
+}
+
+/* Advertisement: container  */
+#Advertisement__container {
+    grid-column: 2 / 4;
+    height: 438px;
+    background-image: url(/grundforloebseksamen_william-deckmann/assets/img/reklame01.jpg);
+    background-size: cover;
+    background-position: right;
+    transform: scaleX(-1) scaleY(-1);
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Advertisement: info */
+#Advertisement__info {
+    transform: scaleX(-1) scaleY(-1);
+    padding: 52px 0 0 46px;
+}
+
+/* Advertisement: offer */
+#Advertisement__offer {
+    margin: 0;
+    font-size: 110px;
+    color: var(--white);
+}
+
+/* Advertisement: title */
+#Advertisement__title {
+    margin: 0;
+    font-size: 50px;
+    color: var(--white);
+}
+
+/* Advertisement: text */
+#Advertisement__text {
+    margin: 0;
+    font-size: 20px;
+    color: var(--white);
+}
